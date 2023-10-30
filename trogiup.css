@@ -1,0 +1,161 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  
+}
+
+.contaner{
+  width: 100%;
+  height: 100vh;
+  background-image: url(minecraft-ios.jpg);
+ 
+  background-position: center;
+ 
+}
+
+
+.contaner nav{
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 7%;
+  padding-right: 8%;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.7);
+}
+
+.contaner nav .logo img{
+  width: 170px;
+  margin-top: 12px;
+  padding-bottom: 6px;
+  cursor: pointer;
+
+  
+}
+
+.contaner nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 25px;
+  
+  
+}
+
+.contaner nav ul li a{
+  text-decoration: none;
+  color: rgb(11, 236, 187);
+  font-size: 19px;
+  font-weight: bold;
+  transition: 0.3s;
+  background-color: gray;
+
+}
+
+.contaner nav ul li a:hover{
+  color:aqua;
+  background-color:rgba(0, 0, 0, 0.203);
+
+}
+
+.contaner nav .btn a{
+  text-decoration: none;
+  color: rgba(6, 244, 129, 0.977);
+  font-size: 19px;
+  font-weight: 600;
+  
+  padding: 10px 23px;
+  transition: 0.3s;
+}
+
+.contaner nav .btn a:hover{
+  background:#eaeaea;
+  color: black;
+}
+
+.contaner .tag_line{
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  
+ 
+}
+
+.contaner .tag_line .EA_logo{
+  display: flex;
+  align-items:center;
+  
+}
+
+.contaner .tag_line .EA_logo img{
+  width: 200px;
+
+  
+  
+}
+
+.contaner .tag_line .EA_logo p{
+  color: black;
+  font-weight: bold;
+  margin-top: 50px;
+  font-size: 35px;
+  
+}
+
+.contaner .tag_line h2{
+  color: #e6e3e3;
+  font-size: 65px;
+  text-shadow: 0 0 20px black;
+  margin: 10px 0;
+  text-align: center;
+  
+}
+
+.contaner .tag_line h1{
+  color: #ffffff;
+  text-shadow: 3px 0 20px black;
+  font-size: 75px;
+  text-align:center;
+}
+
+
+  
+  form {
+    width: 20%;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  input{
+    width: 150%;
+    height: 40px;
+    margin: 10px 0;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 13%;
+    
+  }
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type=submit] {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #333;
+  }
+  
