@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+.contaner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(minecraft-ios.jpg);
+   
+    background-position: center;
+   
+}
+
+
+.contaner nav{
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-right: 8%;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.7);
+}
+
+.contaner nav .logo img{
+    width: 170px;
+    margin-top: 12px;
+    padding-bottom: 6px;
+    cursor: pointer;
+  
+    
+}
+
+.contaner nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+    
+    
+}
+
+.contaner nav ul li a{
+    text-decoration: none;
+    color: rgb(11, 236, 187);
+    font-size: 19px;
+    font-weight: bold;
+    transition: 0.3s;
+    background-color: gray;
+  
+}
+
+.contaner nav ul li a:hover{
+    color:aqua;
+    background-color:rgba(0, 0, 0, 0.203);
+
+}
+
+.contaner nav .btn a{
+    text-decoration: none;
+    color: rgba(6, 244, 129, 0.977);
+    font-size: 19px;
+    font-weight: 600;
+    
+    padding: 10px 23px;
+    transition: 0.3s;
+}
+
+.contaner nav .btn a:hover{
+    background:#eaeaea;
+    color: black;
+}
+
+.contaner .tag_line{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    
+   
+}
+
+.contaner .tag_line .EA_logo{
+    display: flex;
+    align-items:center;
+    
+}
+
+.contaner .tag_line .EA_logo img{
+    width: 200px;
+  }
+
+.contaner .tag_line .EA_logo p{
+    color: black;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 35px;
+    
+}
+
+.contaner .tag_line h2{
+    color: #e6e3e3;
+    font-size: 65px;
+    text-shadow: 0 0 20px black;
+    margin: 10px 0;
+    text-align: center;
+    
+}
+
+.contaner .tag_line h1{
+    color: #ffffff;
+    font-size: 100px;
+    text-align:center;
+}
+
+.about{
+    color: #fafafa;
+    width: 100%;
+    height: 110vh;
+    padding-top: 50px;
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)) ,url(image/2background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: #2ee8a4;
+
+ 
+}
+
+.about .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about .tag{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color:#f4f4f4;
+}
+
+.about .main img{
+    width: 300px;
+    cursor: pointer;
+    
+}
+
+.about .main .about_text{
+    width: 1000px;
+}
+
+.about .main .about_text h1{
+    color: #112523;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.about .main .about_text p{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    text-align: justify;
+    margin-bottom: 40px;
+    line-height: 22px;
+}
+
+.about .main .about_text button{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    padding: 15px 40px;
+    border-radius: 50px;
+    outline: none;
+    background: none;
+    border: 2px solid #fff;
+    box-shadow: 0 0 16px white;
+    cursor: pointer;
+    transition: 0.3s;
+    float:right;
+}
+
+.about .main .about_text button:hover{
+    color: black;
+    background: #ffcc00;
+    border: 2px solid transparent;
+    box-shadow: 0 0 16px #ffcc00;    
+}
+
+#character{
+    width: 90%;
+    background-image: linear-gradient(rgba(0,0,0,0.😎,rgba(0,0,0,0.3)));
+    padding: 50px;
+    background-color:rgb(238, 238, 238);
+}
+
+#character .title h1  {
+    width: 1130px;
+    font-size: 75px;
+    text-align: center;
+    margin: 30px auto;
+    color: rgb(127, 250, 131);
+    
+}
+
+
+#character .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#character .box .cards{
+    width: 345px;
+    height: 375px;
+    padding: 20px 20px;
+    margin: 15px;
+    background: #5ccaf9;
+    text-align: center;
+    box-shadow: 5px 0 20px rgba(0,0,0,0.4);
+    border-radius: 150px;
+}
+
+#character .box .cards:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#character .box .cards img{
+    width: 80px;
+    text-align: center;
+    margin: 10px 0;
+    transition: 0.3s;
+}
+
+#character .box .cards img:hover{
+    transform: scale(1.1);
+}
+
+#character .box .cards h2{
+    color: greenyellow;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+#character .box .cards p{
+    color: white;
+    font-size: 17px;
+    text-align: center;
+}
+
+.esports{
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    background-color:rgba(0, 0, 0, 0.834);
+}
+
+.esports .esports_tag h1{
+    display: flex;
+    color:rgb(10, 241, 203);
+    justify-content: center;
+    font-size: 75px;
+    padding: 50px 0;
+    text-shadow: 0 0 20px black;
+}
+
+.esports .boxer .box_image{
+    display: inline-block;
+    justify-content: center;
+}
+
+.esports .box_image img{
+    width: 270px;
+    margin: 15px;
+    transition: 0.3s;
+}
+
+.esports .box_image img:hover{
+    transform: scale(1.1);
+    border: 4px solid white;
+    border-radius: 12px;
+}
+.end_page{
+    width: 100%;
+    height: 40vh;
+    background-image: url(image/end\ page\ background.webp);
+    background-size: cover;
+    background-position: center;
+    background-color: gray;
+
+}
+.end_page h1 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-top: 30px;
+    padding: 50px;
+    
+}
+.end_page p{
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 10px;
+    
+}
+
+
+.end_page .download_app{
+    display: flex;
+    justify-content:center;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+  
+}
+
+.end_page .download_app img{
+    width: 140px;
+    margin: 10px;
+}
+
+.end_page .download_app img:hover{
+    box-shadow: 0 0 10px rgba(228,226,226);
+}
+
+
+
+.login-container {
+    width: 300px;
+    padding: 16px;
+    background-color: rgb(255, 255, 255);
+    margin: 100px auto;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
